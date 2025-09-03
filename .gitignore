@@ -1,0 +1,11 @@
+# Crear archivo .gitignore
+echo "__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+db.sqlite3
+.env
+venv/
+.vscode/" > .gitignore
+
